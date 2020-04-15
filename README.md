@@ -1,4 +1,4 @@
 # IngenieriaWeb
-Proyecto desarrollado en Ingeniería Web
+Proyecto desarrollado HTML-Ingeniería Web
 
 Autor: Luis Enrique Ortiz Rivera [B]
