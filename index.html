@@ -1,51 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img class="logo" src="" alt="">
         <div>
-            <nav>
-                <a href="">Registrarse</a>
-                <a href="">Iniciar Sesión</a>
-            </nav>
-            <div class="barraBusqueda">
-                Buscar
-            </div>
+            <img src="assets/img/IG.png">
         </div>
+        <section>
+            <nav>
+                <a href="">Registrar</a>
+                <a href="">Login</a>
+            </nav>
+            <aside class="barraBusqueda">
+                <div class="contenedor">
+                    <div>
+                       Buscar
+                    </div>
+                </div>
+            </aside>
+        </section>
     </header>
-    <nav>
-        <a href="">INICIO</a>
-        <a href="">SERVICIOS</a>
-        <a href="">PORTAFOLIO</a>
-        <a href="">CLIENTES</a>
-        <a href="">CONTACTOS</a>
+    <nav class="menu">
+        <ul>
+            <li><a href="">INICIO</a></li>
+            <li><a href="">SERVICIOS</a></li>
+            <li><a href="">PORTAFOLIO</a></li>
+            <li><a href="">CLIENTES</a></li>
+            <li><a href="">CONTACTOS</a></li>
+        </ul>
     </nav>
-    <div class="slider">
-        SLIDER GALERIA
-    </div>
-    <div class="noticias">
-        <div class="noticia">Noticia Número 1</div>
-        <div class="noticia">Noticia Número 2</div>
-    </div>
-    <div class="sponsors">
+    <section class="sliderGaleria">
+        <h2>SLIDER GALERIA</h2>
+        <a href="">
+           1/1
+        </a>
+    </section>
+    <main class="news">
+        <section class="new">
+            <div class="imgNew">
+                <img src="assets/img/new1.jpg" alt="">
+            </div>
+            <div class="textNew">
+                <h3>Noticia 1</h3>
+                <a href="">Leer más</a>
+            </div>
+        </section>
+        <section class="new">
+            <div class="imgNew">
+                <img src="assets/img/new2.jpg" alt="">
+            </div>
+            <div class="textNew">
+                <h3>Noticia 2</h3>
+                <a href="">Leer más</a>
+            </div>
+        </section>
+    </main>
+    <aside class="sponsors">
         <h3>
             SPONSORS
         </h3>
-        <img class="sponsor" src="" alt="">
-        <img class="sponsor" src="" alt="">
-        <img class="sponsor" src="" alt="">
-        <img class="sponsor" src="" alt="">
-        <img class="sponsor" src="" alt="">
-    </div>
+        <div class="sponsorList">
+            <section class="sponsor">
+                <h4>APEX</h4>
+            </section>
+            <section class="sponsor">
+                <h4>INDEVGAME</h4>
+            </section>
+            <section class="sponsor">
+                <h4></h4>
+            </section>
+            <section class="sponsor">
+                <h4>EAGAMES</h4>
+            </section>
+            <section class="sponsor">
+                <h4>e-Sport</h4>
+            </section>
+        </div>
+    </aside>
     <footer>
-        Pie de Página
+        <h5>
+            leortiz6@utpl.edu.ec
+        </h5>
+        <h5>
+            Todos los derechos reservados UTPL
+        </h5>
     </footer>
 </body>
+
 
 </html>
