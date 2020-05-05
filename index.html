@@ -2,30 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>Taller</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/4feb140172.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="assets/img/IG.png">
+    <header class="topBar">
+        <!-- insetar logotipo -->
+        <div class="logo">
+            <p class="initials">
+                IW
+            </p>
+            <h1>Ingeniería Web</h1>
         </div>
-        <section>
-            <nav>
-                <a href="">Registrar</a>
-                <a href="">Login</a>
+        <!-- segunda parte del header -->
+        <div class="actionsBar">
+            <nav class="actions">
+                <a href="">REGISTER</a>
+                <a href="">LOGIN</a>
             </nav>
-            <aside class="barraBusqueda">
-                <div class="contenedor">
-                    <div>
-                       Buscar
-                    </div>
-                </div>
+            <aside class="search">
+                <!-- insertar la barra de busqueda -->
+                <!-- <input type="text" placeholder="Buscar"> -->
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
             </aside>
-        </section>
+        </div>
     </header>
     <nav class="menu">
         <ul>
@@ -49,6 +55,9 @@
             </div>
             <div class="textNew">
                 <h3>Noticia 1</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat aspernatur eligendi
+                </p>
                 <a href="">Leer más</a>
             </div>
         </section>
@@ -58,6 +67,9 @@
             </div>
             <div class="textNew">
                 <h3>Noticia 2</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat aspernatur eligendi 
+                </p>
                 <a href="">Leer más</a>
             </div>
         </section>
