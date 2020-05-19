@@ -21,4 +21,8 @@
     <?php include '../components/footer.php'; ?>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html> 
+>>>>>>> 46ecc51eef367c67f2a3341865e756541e2d2318

@@ -5,13 +5,20 @@ $correo = $_POST["correo"];
 $dni = $_POST["dni"];
 $pais = $_POST["pais"];
 $sexo = $_POST["sexo"];
+<<<<<<< HEAD
 $telefono=$_POST["telefono"]; 
+=======
+>>>>>>> 46ecc51eef367c67f2a3341865e756541e2d2318
 
 include("../dll/config.php");
 include("../dll/class_mysqli.php");
 $miconexion = new clase_mysqli;
 $miconexion->conectar(DBHOST, DBUSER, DBPASS, DBNAME);
+<<<<<<< HEAD
 $resultado=$miconexion->consulta("insert into inscritos values('','$nombres','$apellidos','$correo','$dni','$pais','$sexo', '$telefono')");
+=======
+$resultado = $miconexion->consulta("insert into inscritos values('','$nombres','$apellidos','$correo','$dni','$pais','$sexo')");
+>>>>>>> 46ecc51eef367c67f2a3341865e756541e2d2318
 ?>
 
 <!DOCTYPE html>

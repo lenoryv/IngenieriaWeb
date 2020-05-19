@@ -40,10 +40,13 @@
                     <label for="pais">País</label>
                     <input type="text" name="pais" placeholder="Ingrese su el nombre se su país">
                 </div>
+<<<<<<< HEAD
                 <div class="groupInput">
                     <label for="telef">Telef.</label>
                     <input type="text" name="telefono" placeholder="Ingrese su teléfono">
                 </div>
+=======
+>>>>>>> 46ecc51eef367c67f2a3341865e756541e2d2318
                 <div class="groupInput inputHorizontal">
                     <div>
                         <label for="sexo">Masculino</label>
@@ -61,4 +64,8 @@
     <?php include '../components/footer.php'; ?>
 </body>
 
+<<<<<<< HEAD
 </html> 
+=======
+</html>
+>>>>>>> 46ecc51eef367c67f2a3341865e756541e2d2318

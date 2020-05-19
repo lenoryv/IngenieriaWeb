@@ -78,7 +78,11 @@ class clase_mysqli{
 		}
 		echo "</table>";
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 46ecc51eef367c67f2a3341865e756541e2d2318
 	function consulta_lista(){
 		while ($row = mysqli_fetch_array($this->Consulta_ID)) {
 			for ($i=0; $i < $this->numcampos(); $i++) { 
@@ -90,4 +94,8 @@ class clase_mysqli{
 
 
 }
+<<<<<<< HEAD
 ?> 
+=======
+?>
+>>>>>>> 46ecc51eef367c67f2a3341865e756541e2d2318
