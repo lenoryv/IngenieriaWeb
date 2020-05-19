@@ -1,0 +1,27 @@
+.content_page .content {
+    height: 100px;
+    width: 100%;
+    margin-top: 16px;
+    color: #e0ebf0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(129deg, #000, #300c2a);
+    position: relative;
+    border-radius: 3px;
+}
+
+.content_page .content h2 {
+    padding-left: 30px;
+}
+
+.content_page p {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: end;
+} 

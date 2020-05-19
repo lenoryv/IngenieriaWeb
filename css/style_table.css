@@ -1,0 +1,25 @@
+.tableData {
+    margin-top: 1em;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableData td,
+.tableData th {
+    border: 1px solid #050505;
+    padding: 8px;
+}
+
+.tableData tr:hover {
+    background-color: #ddd;
+}
+
+.tableData th {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+} 
