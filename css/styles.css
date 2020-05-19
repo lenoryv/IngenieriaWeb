@@ -15,6 +15,7 @@ a {
     text-decoration: none;
     color: #9ea5ac;
 }
+
 a:hover {
     text-decoration-line: underline;
     text-decoration-color: #8a6c3f;
@@ -37,13 +38,9 @@ header h1 {
 }
 
 .topBar .logo {
-    margin: 20px;
     grid-area: logo;
     text-transform: uppercase;
     letter-spacing: 2px;
-    /* display: inline-block; */
-    /* width: 30%; */
-    /* padding: 1em 1em; */
     display: table-cell;
     padding: 10px;
 }
@@ -58,6 +55,7 @@ header h1 {
 
 
 /* Menu Principal */
+
 .menu {
     z-index: 1200;
     position: sticky;
@@ -73,6 +71,7 @@ header h1 {
 ul {
     list-style: none;
 }
+
 
 /* Acciones */
 
@@ -93,7 +92,10 @@ ul {
     margin-right: 10px;
     border-right: 1px solid #8a6c3f;
 }
+
+
 /*Barra de Busqueda*/
+
 .search {
     margin-left: 20px;
     display: inline-block;
@@ -105,9 +107,9 @@ ul {
     padding: 0 14px;
     height: 33px;
     line-height: 35px;
-    /* border: 1px solid #f9fafa; */
     font-size: 16px;
 }
+
 .menu {
     display: flex;
     background-color: #333;
@@ -119,22 +121,20 @@ ul {
     text-decoration: none;
     text-align: center;
 }
+
 .menu a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
 
 .menu ul {
     display: flex;
 }
 
-
 button {
     border-radius: 5px;
     height: 32px;
     border: none;
-    /* border: 1px solid #f9fafa; */
-    /* border-left: none; */
     padding: 0 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -145,6 +145,7 @@ button:hover {
     border: #3b3a38;
     color: #f9fafa;
 }
+
 
 /* Bloque Galeria */
 
@@ -171,7 +172,7 @@ button:hover {
 
 .news {
     display: grid;
-    text-align: center;
+    text-align: left;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
 }
@@ -187,7 +188,7 @@ button:hover {
 
 .textNew {
     color: #f1f1ed;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .news img {
@@ -198,11 +199,17 @@ button:hover {
 }
 
 .new .textNew p {
-    text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 16px;
 }
+
+.new .textNew a {
+    width: 100%;
+    text-align: right;
+    display: block;
+}
+
 
 /* Sponsors */
 
@@ -213,7 +220,8 @@ button:hover {
 }
 
 .sponsors {
-    background: rgb(218, 224, 228);
+    background-image: linear-gradient(129deg, #000, #300c2a);
+    color: #e0ebf0;
     position: relative;
     border-radius: 3px;
     justify-content: center;
@@ -226,7 +234,6 @@ button:hover {
 }
 
 .sponsors .sponsorList .sponsor {
-    color: #1b1919;
     transition: .4s;
     margin: 10px 10px;
     font-size: 30px;
@@ -236,17 +243,17 @@ button:hover {
     padding: 2em;
 }
 
+
 /* Footer */
 
 footer {
-    text-align: end;
+    text-align: center;
 }
 
 footer h5 {
     margin: 1em;
     display: inline-block;
 }
-
 
 @media all and (max-width: 900px) {
     footer {
